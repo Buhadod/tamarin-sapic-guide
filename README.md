@@ -1,6 +1,6 @@
 # Tamarin-SAPIC-Guide
 
-This document will explain how to wtrite a protocol using tamarin SAPIC (process based fact)
+This document will explain how to write a protocol using tamarin SAPIC (process based fact).
 
 
 ## Setup
@@ -153,5 +153,7 @@ let x = fst(values) in
 let y = snd(values) in
 ..
 ```
+
+That's it for now. until next time :D
 ## Writing lemmas
 tbc
