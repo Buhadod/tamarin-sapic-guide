@@ -1,4 +1,4 @@
-# Tamarin-SAPIC-Guide
+# Tamarin SAPIC Guide
 
 This document will explain how to write a protocol using tamarin SAPIC (process based fact).
 
