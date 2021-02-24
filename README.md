@@ -104,7 +104,7 @@ Few important points:
 1. Global variables like `sharedkey` can be used in any proccess. They are useful for shared secret or keys.
 2. Texts like ``toServer`` should not contain underscore in it. Something like `'to_server'` can cause a synatx error. 
 3. All statments end up with `;` excepts the last event of a process or a statment end with `in`.
-4. `~` prefix indicate a fresh value used to create keys, secret ids etc. Within the procces that a fresh value declared, you need always to add '~' for each variable there. But you should not do it if a variable recvied by a different proccess that do not know that it is a fresh value. You can see that `secret ` is fresh in client but not fresh prefix in server. if the fresh variable is global like `shareKey` then you should put '~' prefix everywhere.
+4. `~` prefix indicate a fresh value used to create keys, secret ids etc. Within the procces that a fresh value declared, you need always to add `~` for each variable there. But you should not do it if a variable recvied by a different proccess that do not know that it is a fresh value. You can see that `secret ` is fresh in client but not fresh prefix in server. if the fresh variable is global like `shareKey` then you should put '~' prefix everywhere.
 5. Events start with `event` keyword. They are like traces in Tamarin. we use them in lemmas to find out what happining and prove the model. 
 6. `!( ...)` indicate that the code inside can be run mutliple times. while anything outside runs once per process instance. For a web server, this is important to answer all the requests forexample. 
 
